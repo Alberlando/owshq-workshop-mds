@@ -3,7 +3,7 @@
 with src_user as 
 (
     select * 
-    from workspace_user
+    from public.workspace_user
 ) 
 
 select

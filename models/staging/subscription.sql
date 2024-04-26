@@ -3,7 +3,7 @@
 with src_subscription as 
 (
     select * 
-    from workspace_subscription
+    from public.workspace_subscription
 ) 
 
 select

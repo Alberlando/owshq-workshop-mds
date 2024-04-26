@@ -3,7 +3,7 @@
 with src_payments as 
 (
     select * 
-    from workspace_payments
+    from public.workspace_payments
 ) 
 
 select
