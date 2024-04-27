@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 with cleansed_subscription as 
 (
     select * from {{ ref( 'cleansed_subscription' ) }}
