@@ -1,4 +1,4 @@
-name: 'my_new_project'
+name: 'owshq_analytics'
 version: '1.0.0'
 config-version: 2
 
@@ -21,6 +21,5 @@ clean-targets:
 
 
 models:
-  my_new_project:
-    example:
-      +materialized: table
+  owshq_analytics:
+    materialized: table
